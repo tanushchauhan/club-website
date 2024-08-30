@@ -21,6 +21,40 @@ function Contact() {
           updated on any CSC news!
         </p>
       </div>
+      <span className="contactInfoBox">
+        <div className="emailBox" style={{ textAlign: "left" }}>
+          <p>Email Us:</p>
+          <Link
+            className="emailText link"
+            target="_blank"
+            rel="noopener noreferrer"
+            to="mailto:csc.org.contact@gmail.com"
+          >
+            <p>csc.org.contact@gmail.com</p>
+          </Link>
+        </div>
+        <div className="socialBox" style={{ textAlign: "right" }}>
+          <p>Social Media</p>
+          <div className="socialIcons">
+            <Link
+              className="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              to="https://www.linkedin.com/company/computer-science-for-community/"
+            >
+              <img className="linkedinIcon" src={LinkedInIcon} />
+            </Link>
+            <Link
+              className="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              to="https://www.instagram.com/csc.organization/"
+            >
+              <img className="instagramIcon" src={InstagramIcon} />
+            </Link>
+          </div>
+        </div>
+      </span>
     </div>
   );
 }
