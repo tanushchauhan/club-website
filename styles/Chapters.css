@@ -112,3 +112,100 @@
   color: white;
   cursor: pointer;
 }
+
+.reason-1,
+.reason-2,
+.reason-3 {
+  background-color: white;
+  width: 30vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding: 7vh 5vh 7vh 5vh;
+
+  h2 {
+    font-family: "Red Hat Display Light";
+  }
+
+  p {
+    font-family: "Red Hat Display Light";
+  }
+}
+
+.reason-1,
+.reason-3 {
+  p {
+    margin-top: 5vh;
+  }
+}
+
+.reason-2 {
+  p {
+    margin-top: 3vh;
+  }
+}
+
+.circle-1,
+.circle-2,
+.circle-3 {
+  position: absolute;
+  z-index: 3;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  transform: translateY(-5vh);
+  font-size: x-large;
+  background-color: rgb(225, 230, 255);
+
+  h1 {
+    padding-top: 1.5vh;
+  }
+}
+
+.infobox-1,
+.infobox-2,
+.infobox-3 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .text-box {
+    width: 100vw;
+    font-size: 3vh;
+    h1 {
+      font-size: 7vh;
+    }
+  }
+  .why-box {
+  }
+}
+
+@media (max-width: 900px) {
+  .infobox-wrapper {
+    grid-template-columns: 5fr;
+    gap: 7vh;
+  }
+  .infobox-1,
+  .infobox-2,
+  .infobox-3 {
+    margin: auto;
+  }
+  .reason-1,
+  .reason-2,
+  .reason-3 {
+    width: 75vw;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 585px) {
+  .typeSequence {
+    height: 15vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .typeSequence {
+    height: 20vh;
+  }
+}
