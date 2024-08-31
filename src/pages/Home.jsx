@@ -4,13 +4,11 @@ import Collab from "../assets/Home/collab.webp";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import { Sriram } from "../assets/About/officers";
+import Conferences from "../assets/Home/conferences.png";
+import Competitions from "../assets/Home/competitions.png";
+import Volunteering from "../assets/Home/volunteering.png";
 
 function Home() {
-  const slides = [Sriram];
-
-  console.log(slides);
-
   return (
     <motion.div exit={{ opacity: 0 }}>
       <>

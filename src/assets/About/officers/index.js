@@ -1,10 +1,23 @@
-export const Rohan = require('./rohan.jpg');
-export const Sai = require('./sai.jpg');
-export const Shreya = require('./shreya.jpg');
-export const Tuhina = require('./tuhina.webp');
-export const Sriram = require('./sriram.webp');
-export const Tanush = require('./tanush.jpg');
-export const Karthik = require('./karthik.jpg');
-export const Arpit = require('./arpit.jpg');
-export const Naavya = require('./naavya.jpg');
-export const Sanjana = require('./sanjana.jpg');
+import Rohan from "./rohan.jpg";
+import Sai from "./sai.jpg";
+import Shreya from "./shreya.jpg";
+import Tuhina from "./tuhina.webp";
+import Sriram from "./sriram.webp";
+import Tanush from "./tanush.jpg";
+import Karthik from "./karthik.jpg";
+import Arpit from "./arpit.jpg";
+import Naavya from "./naavya.jpg";
+import Sanjana from "./sanjana.jpg";
+
+export {
+  Rohan,
+  Sai,
+  Shreya,
+  Tuhina,
+  Sriram,
+  Tanush,
+  Karthik,
+  Arpit,
+  Naavya,
+  Sanjana,
+};
