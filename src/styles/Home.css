@@ -1,0 +1,49 @@
+/* HERO STYLING */
+
+.hero {
+  padding: 2vh;
+  padding-top: 7vh;
+  /* border: solid black 5px; */
+  padding-bottom: 10vh;
+}
+
+.hero-img {
+  width: 25%;
+  margin: auto;
+}
+
+.hero-txt {
+  font-family: "Red Hat Display Bold";
+  margin-top: 2vh;
+  color: #3d9be9;
+  font-size: 40px;
+}
+
+.involve-btn {
+  max-width: 50%;
+  height: 25%;
+  margin-top: 5vh;
+  padding: 1.5vh 2.5vh 1.5vh 2.5vh;
+  border-image: linear-gradient(to right, #3d9be9, #16cf10) 10;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: white;
+  font-family: "Red Hat Display Bold";
+  color: #388ed4;
+  transition: 0.3s;
+}
+
+.involve-btn:hover {
+  cursor: pointer;
+  background-color: #16cf10;
+  color: white;
+}
+
+/* CAROUSEL STYLING */
+.carousel {
+  padding: 2vh;
+  padding-top: 5vh;
+  background-color: #3d9be9;
+  height: 50vh;
+}

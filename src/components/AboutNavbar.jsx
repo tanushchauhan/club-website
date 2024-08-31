@@ -22,7 +22,6 @@ function AboutNavbar() {
   const [page, setPage] = useState("mission");
 
   const small = useMediaQuery("(max-width: 800px)");
-  const xsmall = useMediaQuery("(max-width:640px)");
 
   return (
     <div className="about-navbar-container">
