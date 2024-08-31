@@ -32,7 +32,7 @@ The site should be built and present inside the created dist folder. Open the in
 
 ## Authors
 
-- [@tanushchauhan](https://www.github.com/octokatherine)
+- [@tanushchauhan](https://github.com/tanushchauhan/)
 
 ## Demo
 
