@@ -1,26 +1,10 @@
-import React from "react";
 import "../styles/Home.css";
 import HeroImg from "../assets/Home/csc-hero-img.png";
 import Collab from "../assets/Home/collab.webp";
-import Conferences from "../assets/Home/conferences.png";
-import Competitions from "../assets/Home/competitions.png";
-import Volunteering from "../assets/Home/volunteering.png";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
-import Carousel from "../components/Carousel";
 import { motion } from "framer-motion";
-import {
-  Sriram,
-  Rohan,
-  Nandhan,
-  Sai,
-  Tuhina,
-  Shreya,
-  Tanush,
-  Sudiksa,
-  Arpit,
-  Naavya,
-} from "../assets/About/officers";
+import { Sriram } from "../assets/About/officers";
 
 function Home() {
   const slides = [Sriram];
@@ -83,6 +67,51 @@ function Home() {
             </Link>
             <Link className="link" to="/chapters">
               <button className="chapters-btn">Explore Chapters</button>
+            </Link>
+          </div>
+        </div>
+        <div className="events">
+          <div className="events-header">
+            <h1 className="events-title inline-block bg-gradient-to-r from-[#3b9aff] to-[#4246c7] bg-clip-text text-transparent">
+              Events
+            </h1>
+            <h3 className="events-txt font-bold">
+              CSC offers a variety of events for members to participate in and
+              enroll in. These fun events include aspects of coding as well as
+              community involvement.
+            </h3>
+          </div>
+          <div className="events-options">
+            <div className="e-option option-1">
+              <img src={Conferences}></img>
+              <h1>Conferences</h1>
+            </div>
+            <div className="e-option option-2">
+              <img src={Competitions}></img>
+              <h1>Competitions</h1>
+            </div>
+            <div className="e-option option-3">
+              <img src={Volunteering}></img>
+              <h1>Volunteering</h1>
+            </div>
+          </div>
+          <h3 className="andMore">and more...</h3>
+          <Link className="link" to="/events">
+            <button className="eventsInfo">MORE INFO</button>
+          </Link>
+        </div>
+        <div className="contact-us">
+          <div className="divider"></div>
+          <div className="contact-box-home shadow-2xl shadow-[#1c5fb8]">
+            <h1>Contact Us</h1>
+            <p className="font-bold">
+              {" "}
+              Be involved with CSC by sponsoring us, partnering with us, or
+              starting a chapter at your school. For any of the above reasons or
+              more contact us by emailing us or filling out a form!
+            </p>
+            <Link className="link" to="/contact-us">
+              <button className="contact-btn">Reach Out</button>
             </Link>
           </div>
         </div>

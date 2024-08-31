@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Red Hat Display Light";
+  src: url("../assets/csc-fonts//static/RedHatDisplay-Light.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-options-box {
+  display: flex;
+}
+
+.about-navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 7vh;
+  max-height: 10vh;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  background-color: #fff;
+  color: black;
+  /* box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23); */
+  justify-content: center;
+}
