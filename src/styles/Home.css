@@ -244,3 +244,117 @@
   font-size: 30px;
   padding-top: 5vh;
 }
+
+.eventsInfo {
+  margin: 5vh 2vw;
+  padding: 1.5vh 8vh;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #3d9be9, rgb(85, 89, 244));
+  color: white;
+  font-size: 18px;
+  font-family: "Red Hat Display Light";
+  font-weight: 800;
+}
+
+.eventsInfo:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to right, #3080c1, rgb(66, 70, 199));
+}
+
+/* CONTACT STYLING */
+
+.contact-us {
+  height: fit-content;
+  padding: 0 5vh;
+}
+
+.divider {
+  height: 0;
+  border: solid #3d9be9 2px;
+  width: 50vw;
+  margin: 10vh auto;
+}
+
+.contact-box-home {
+  height: fit-content;
+  width: fit-content;
+  border: solid #16cf10 5px;
+  border-radius: 200px;
+  margin: 2vh auto;
+  text-align: center;
+  padding: 7vh 5vw;
+
+  /* TODO: use TW to apply instead of h1 */
+  h1 {
+    font-family: "Red Hat Display Bold";
+    font-size: 5vh;
+  }
+
+  /* TODO: use TW to apply instead of h1 */
+  p {
+    width: 75%;
+    margin: auto;
+    margin-top: 2vh;
+    font-family: "Red Hat Display Light";
+    font-size: 3vh;
+  }
+
+  .contact-btn {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 1vh 5vh 1vh 5vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #3d9be9;
+    color: white;
+    font-family: "Red Hat Display Light";
+    font-weight: 800;
+    transition: 0.3s;
+  }
+
+  .contact-btn:hover {
+    cursor: pointer;
+    background-color: #48acff;
+    box-shadow: 0 5px 10px #157dd3;
+  }
+}
+
+/* reponsiveness */
+
+@media (max-width: 800px) {
+  .hero-img {
+    width: 50%;
+  }
+  .chapters-box {
+    width: 75vw;
+    padding: 2vh 3vh;
+  }
+  .events-options {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .e-option {
+    margin-bottom: 5vh;
+  }
+  .andMore {
+    padding-top: 0%;
+  }
+  .about-us-box {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+  }
+  .about-info {
+    width: 100%;
+    padding: 3vh 10vw 3vh 10vw;
+  }
+  .about-img {
+    /* border:solid red 5px; */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+}
